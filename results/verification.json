@@ -1,0 +1,9 @@
+{
+  "source_sha256": "c1b49f8eb4b29d788733c357cdbd84628d604744f4689225c55c7239cb61159a",
+  "synthetic_rows": 1024,
+  "stress_rows": 4608,
+  "historical_rows": 1728,
+  "recorded_events": 12158306,
+  "max_accounting_residual_tick_lots": 1.8517312128096819e-09,
+  "checks": "source freshness, row counts, cash identity, risk caps, paired means, fee linearity, break-even, provenance"
+}

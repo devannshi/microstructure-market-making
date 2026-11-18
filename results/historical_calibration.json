@@ -1,0 +1,386 @@
+[
+  {
+    "symbol": "ETHUSDT",
+    "day": "2024-01-01",
+    "fit": {
+      "variance_rate": 245.08532518065593,
+      "kappa": 0.26165074369154373,
+      "arrival_rate": 7.490081416908622,
+      "half_spread": 0.5,
+      "gamma": 2.0401058269459536e-06,
+      "n_quotes": 235982,
+      "n_trades": 15120,
+      "start": 0.012,
+      "end": 1799.928,
+      "method": "binned_poisson_composite_likelihood"
+    },
+    "diagnostics": {
+      "success": true,
+      "reason": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nll": -501260.30352702446,
+      "depths": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5,
+        4.0
+      ],
+      "counts": [
+        15076,
+        8218,
+        8137,
+        6819,
+        6753,
+        6089,
+        6039,
+        5459
+      ],
+      "predicted_counts": [
+        11828.765200881602,
+        10378.215253652925,
+        9105.544832619282,
+        7988.940744860413,
+        7009.2647280428155,
+        6149.725426289109,
+        5395.59059132682,
+        4733.934576129786
+      ],
+      "calibration": {
+        "variance_rate": 245.08532518065593,
+        "kappa": 0.26165074369154373,
+        "arrival_rate": 7.490081416908622,
+        "half_spread": 0.5,
+        "gamma": 2.0401058269459536e-06,
+        "n_quotes": 235982,
+        "n_trades": 15120,
+        "start": 0.012,
+        "end": 1799.928,
+        "method": "binned_poisson_composite_likelihood"
+      },
+      "variance_observations": 1800
+    }
+  },
+  {
+    "symbol": "ETHUSDT",
+    "day": "2024-01-02",
+    "fit": {
+      "variance_rate": 1688.6876042245692,
+      "kappa": 0.18312863762847956,
+      "arrival_rate": 25.434083995224764,
+      "half_spread": 0.5,
+      "gamma": 2.9608791984328903e-07,
+      "n_quotes": 423842,
+      "n_trades": 51879,
+      "start": 0.001,
+      "end": 1799.993,
+      "method": "binned_poisson_composite_likelihood"
+    },
+    "diagnostics": {
+      "success": true,
+      "reason": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nll": -2321525.4735330567,
+      "depths": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5,
+        4.0
+      ],
+      "counts": [
+        51454,
+        31949,
+        31587,
+        28373,
+        28103,
+        26170,
+        25966,
+        24339
+      ],
+      "predicted_counts": [
+        41775.5798461118,
+        38120.3261943501,
+        34784.89764873736,
+        31741.310351443663,
+        28964.028958792576,
+        26429.752402695605,
+        24117.218397399152,
+        22007.025051378303
+      ],
+      "calibration": {
+        "variance_rate": 1688.6876042245692,
+        "kappa": 0.18312863762847956,
+        "arrival_rate": 25.434083995224764,
+        "half_spread": 0.5,
+        "gamma": 2.9608791984328903e-07,
+        "n_quotes": 423842,
+        "n_trades": 51879,
+        "start": 0.001,
+        "end": 1799.993,
+        "method": "binned_poisson_composite_likelihood"
+      },
+      "variance_observations": 1800
+    }
+  },
+  {
+    "symbol": "ETHUSDT",
+    "day": "2024-01-03",
+    "fit": {
+      "variance_rate": 1500.6158977209561,
+      "kappa": 0.1538327367126787,
+      "arrival_rate": 29.740461688980027,
+      "half_spread": 0.5,
+      "gamma": 3.3319652334709333e-07,
+      "n_quotes": 383085,
+      "n_trades": 58899,
+      "start": 0.067,
+      "end": 1799.925,
+      "method": "binned_poisson_composite_likelihood"
+    },
+    "diagnostics": {
+      "success": true,
+      "reason": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nll": -2945484.4784978996,
+      "depths": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5,
+        4.0
+      ],
+      "counts": [
+        58436,
+        40302,
+        39709,
+        36096,
+        35608,
+        33394,
+        33000,
+        31148
+      ],
+      "predicted_counts": [
+        49567.80542037347,
+        45898.16648286162,
+        42500.200858652606,
+        39353.79583627324,
+        36440.327702775394,
+        33742.55150914078,
+        31244.498996651524,
+        28931.384080048094
+      ],
+      "calibration": {
+        "variance_rate": 1500.6158977209561,
+        "kappa": 0.1538327367126787,
+        "arrival_rate": 29.740461688980027,
+        "half_spread": 0.5,
+        "gamma": 3.3319652334709333e-07,
+        "n_quotes": 383085,
+        "n_trades": 58899,
+        "start": 0.067,
+        "end": 1799.925,
+        "method": "binned_poisson_composite_likelihood"
+      },
+      "variance_observations": 1800
+    }
+  },
+  {
+    "symbol": "BTCUSDT",
+    "day": "2024-01-01",
+    "fit": {
+      "variance_rate": 540.9794330183436,
+      "kappa": 0.27103491416767095,
+      "arrival_rate": 9.002087307207116,
+      "half_spread": 0.5,
+      "gamma": 9.24249554572338e-06,
+      "n_quotes": 368641,
+      "n_trades": 19057,
+      "start": 0.005,
+      "end": 1799.998,
+      "method": "binned_poisson_composite_likelihood"
+    },
+    "diagnostics": {
+      "success": true,
+      "reason": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nll": -604259.728895915,
+      "depths": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5,
+        4.0
+      ],
+      "counts": [
+        19008,
+        9214,
+        9137,
+        7835,
+        7786,
+        7166,
+        7117,
+        6628
+      ],
+      "predicted_counts": [
+        14150.117154230533,
+        12356.786748441273,
+        10790.73601173707,
+        9423.160409374821,
+        8228.905980484169,
+        7186.006678638367,
+        6275.280348068446,
+        5479.975904268956
+      ],
+      "calibration": {
+        "variance_rate": 540.9794330183436,
+        "kappa": 0.27103491416767095,
+        "arrival_rate": 9.002087307207116,
+        "half_spread": 0.5,
+        "gamma": 9.24249554572338e-06,
+        "n_quotes": 368641,
+        "n_trades": 19057,
+        "start": 0.005,
+        "end": 1799.998,
+        "method": "binned_poisson_composite_likelihood"
+      },
+      "variance_observations": 1800
+    }
+  },
+  {
+    "symbol": "BTCUSDT",
+    "day": "2024-01-02",
+    "fit": {
+      "variance_rate": 6991.971372984992,
+      "kappa": 0.13354944432834798,
+      "arrival_rate": 54.65938642081093,
+      "half_spread": 0.5,
+      "gamma": 7.151059026526614e-07,
+      "n_quotes": 743420,
+      "n_trades": 114141,
+      "start": 0.008,
+      "end": 1799.999,
+      "method": "binned_poisson_composite_likelihood"
+    },
+    "diagnostics": {
+      "success": true,
+      "reason": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nll": -6025951.659462825,
+      "depths": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5,
+        4.0
+      ],
+      "counts": [
+        112893,
+        73372,
+        72861,
+        68460,
+        68101,
+        65650,
+        65284,
+        63033
+      ],
+      "predicted_counts": [
+        92031.27393328883,
+        86086.59697329404,
+        80525.91104861088,
+        75324.41260537227,
+        70458.90025285522,
+        65907.67127320057,
+        61650.424815993945,
+        57668.17134590517
+      ],
+      "calibration": {
+        "variance_rate": 6991.971372984992,
+        "kappa": 0.13354944432834798,
+        "arrival_rate": 54.65938642081093,
+        "half_spread": 0.5,
+        "gamma": 7.151059026526614e-07,
+        "n_quotes": 743420,
+        "n_trades": 114141,
+        "start": 0.008,
+        "end": 1799.999,
+        "method": "binned_poisson_composite_likelihood"
+      },
+      "variance_observations": 1800
+    }
+  },
+  {
+    "symbol": "BTCUSDT",
+    "day": "2024-01-03",
+    "fit": {
+      "variance_rate": 7006.352418010006,
+      "kappa": 0.11254176501582795,
+      "arrival_rate": 47.862480792934285,
+      "half_spread": 0.5,
+      "gamma": 7.136380960722692e-07,
+      "n_quotes": 602593,
+      "n_trades": 97324,
+      "start": 0.001,
+      "end": 1799.994,
+      "method": "binned_poisson_composite_likelihood"
+    },
+    "diagnostics": {
+      "success": true,
+      "reason": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "nll": -5463593.932193771,
+      "depths": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5,
+        4.0
+      ],
+      "counts": [
+        96372,
+        68015,
+        67353,
+        63705,
+        63260,
+        61141,
+        60732,
+        58918
+      ],
+      "predicted_counts": [
+        81438.4192277127,
+        76982.35654640984,
+        72770.11606607796,
+        68788.3565772373,
+        65024.466860825974,
+        61466.52574534394,
+        58103.264349548524,
+        54924.03039111489
+      ],
+      "calibration": {
+        "variance_rate": 7006.352418010006,
+        "kappa": 0.11254176501582795,
+        "arrival_rate": 47.862480792934285,
+        "half_spread": 0.5,
+        "gamma": 7.136380960722692e-07,
+        "n_quotes": 602593,
+        "n_trades": 97324,
+        "start": 0.001,
+        "end": 1799.994,
+        "method": "binned_poisson_composite_likelihood"
+      },
+      "variance_observations": 1800
+    }
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "experiment": "historical descriptive replay",
+  "created_utc": "2026-11-18T05:11:00.334695+00:00",
+  "wall_seconds": 311.18336945801275,
+  "python": "3.12.6",
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "numpy": "2.5.5",
+  "scipy": "1.18.1",
+  "pandas": "3.1.1",
+  "source_sha256": "c1b49f8eb4b29d788733c357cdbd84628d604744f4689225c55c7239cb61159a",
+  "configuration": {
+    "days": [
+      "2024-01-01",
+      "2024-01-02",
+      "2024-01-03"
+    ],
+    "symbols": [
+      "ETHUSDT",
+      "BTCUSDT"
+    ],
+    "seconds_per_day": 7200,
+    "training_end_s": 1800,
+    "test_block_s": 900,
+    "window_origin_utc_seconds": {
+      "2024-01-01": 0,
+      "2024-01-02": 0,
+      "2024-01-03": 39600
+    },
+    "instrument_specs": {
+      "ETHUSDT": {
+        "tick_size": 0.01,
+        "lot_size": 0.001,
+        "order_size": 10,
+        "max_inventory": 100
+      },
+      "BTCUSDT": {
+        "tick_size": 0.1,
+        "lot_size": 0.001,
+        "order_size": 1,
+        "max_inventory": 10
+      }
+    },
+    "replay_common": {
+      "latency": 0.05,
+      "refresh": 1,
+      "maker_fee_bps": 1,
+      "taker_fee_bps": 4,
+      "queue": "back",
+      "queue_multiplier": 1.0,
+      "max_inventory": 10,
+      "order_size": 1,
+      "participation": 0.05,
+      "horizon": 30.0,
+      "variance_half_life": 30.0,
+      "variance_sample": 1.0,
+      "trace_interval": 1.0,
+      "retain_priority": true
+    },
+    "policy_evaluations": 1728,
+    "confidence_intervals": "none: dependent blocks; only three dates"
+  }
+}

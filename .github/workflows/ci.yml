@@ -1,0 +1,26 @@
+name: research-checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.10', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - run: python -m pip install -e ".[dev]"
+      - run: python -m pytest
+      - run: python -m ruff check src tests
+      - run: mm-lab research --quick --trials 4 --stress-trials 2 --output /tmp/mm-smoke
+      - uses: actions/upload-artifact@v4
+        with:
+          name: smoke-results-py${{ matrix.python-version }}
+          path: /tmp/mm-smoke

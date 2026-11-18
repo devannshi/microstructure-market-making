@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "microstructure-market-making"
+version = "1.0.0"
+description = "Execution-aware market-making research with auditable event replay and robustness experiments"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Devanshi"}]
+dependencies = ["numpy>=1.26", "scipy>=1.11", "pandas>=2.1", "matplotlib>=3.8", "requests>=2.31", "stream-unzip>=0.0.99"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.8", "nbformat>=5.9", "nbclient>=0.10", "ipykernel>=6"]
+
+[project.scripts]
+mm-lab = "microstructure_mm.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100

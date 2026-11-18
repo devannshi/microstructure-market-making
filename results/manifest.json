@@ -1,0 +1,50 @@
+{
+  "experiment": "synthetic core and factorial stress",
+  "created_utc": "2026-11-18T05:06:34.741391+00:00",
+  "wall_seconds": 45.60542366700247,
+  "python": "3.12.6",
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "numpy": "2.5.5",
+  "scipy": "1.18.1",
+  "pandas": "3.1.1",
+  "source_sha256": "c1b49f8eb4b29d788733c357cdbd84628d604744f4689225c55c7239cb61159a",
+  "configuration": {
+    "mode": "full",
+    "independent_core_paths": 256,
+    "stress_paths_per_cell": 32,
+    "seed_core_start": 12000,
+    "seed_stress_start": 42000,
+    "training_end_s": 150.0,
+    "generator": {
+      "duration": 600.0,
+      "tick_size": 0.01,
+      "start_price_ticks": 10000.0,
+      "quote_interval": 0.25,
+      "trade_rate": 3.0,
+      "low_sigma": 0.7,
+      "high_sigma": 2.0,
+      "switch_probability": 0.0015,
+      "adverse_selection": 0.25,
+      "mean_trade_size": 60.0,
+      "displayed_depth": 30.0
+    },
+    "replay": {
+      "latency": 0.05,
+      "refresh": 1.0,
+      "maker_fee_bps": 0.0,
+      "taker_fee_bps": 1.0,
+      "queue": "back",
+      "queue_multiplier": 1.0,
+      "max_inventory": 10.0,
+      "order_size": 1.0,
+      "participation": 0.05,
+      "horizon": 30.0,
+      "variance_half_life": 30.0,
+      "variance_sample": 1.0,
+      "trace_interval": 1.0,
+      "retain_priority": true
+    },
+    "policy_evaluations": 5632,
+    "bootstrap_repetitions": 3000
+  }
+}
